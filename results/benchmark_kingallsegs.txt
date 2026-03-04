@@ -1,0 +1,2 @@
+Segment	Chr	StartMB	StopMB	Length	N_SNP	StartSNP	StopSNP
+1	21	14.338	48.120	33.781	202278	rs575769	rs149048580
