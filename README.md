@@ -20,6 +20,14 @@ Repository for the CSE284 final project "Comparing PLINK vs other methods for Re
 - Bash (for `run_1000g_analysis.sh`).
 - Python 3.x and common scientific packages to open and run the notebook (Jupyter, numpy, pandas, matplotlib). See the notebook for specific environment details.
 
+## Guide to run on Datahub
+1. Clone the repository on Datahub by going to the main page, clicking "new" -> "Terminal", and running:
+```bash
+git clone https://github.com/rrzhang139/cse284-relative-finding.git
+```
+2. Open the notebook and run all cells. Double check to ensure all file paths are correct.
+
+
 ## Quickstart
 1. Inspect the notebook:
 
@@ -45,3 +53,6 @@ jupyter lab
 
 Open `cse284-final-proj.ipynb` and run cells top-to-bottom.
 Alternatively, you can download and run on datahub.ucsd.edu
+
+## Remaining work and challenges
+We would like to further explore the discrepancies between KING and PLINK relatedness estimates, especially for more distant relationships. We also want to investigate how different filtering thresholds (e.g. MAF, missingness) impact the results. Finally, we hope to extend our analysis to other methods of finding related individuals if time permits.
